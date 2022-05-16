@@ -1,0 +1,6 @@
+.dataList {
+    list-style-type: none;
+    padding: 1em;
+    border: 1px dotted gray;
+    flex: 10%;
+}

@@ -1,0 +1,24 @@
+.mainList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.fetchBtn {
+    margin: 4em;
+    height: 10em;
+    width: 20em;
+}
+
+.scrollToTop {
+    position: fixed;
+    cursor: pointer;
+    bottom: 20px;
+    left: 20px;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    0% {transform: translateY(0)}
+    50% {transform: translateY(-10px)}
+    100% {transform: translateY(0)}
+}
